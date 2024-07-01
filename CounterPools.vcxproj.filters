@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Salsa Project">
+      <UniqueIdentifier>{33962488-63e7-446b-bda4-dd47dc5ef1cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Salsa Project\PyramidSketch">
+      <UniqueIdentifier>{b740a3fb-63f8-407b-95d4-9670933275d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Robin Map">
+      <UniqueIdentifier>{578acea6-465d-4f3b-bed0-4b83b05077d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="xxhash.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\AEE_Defs.hpp">
+      <Filter>Salsa Project</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\BobHash.hpp">
+      <Filter>Salsa Project</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\CMS.hpp">
+      <Filter>Salsa Project</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\CMSTests.hpp">
+      <Filter>Salsa Project</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\CountMinAEE.hpp">
+      <Filter>Salsa Project</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\CountSketch.hpp">
+      <Filter>Salsa Project</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\CountSketchTests.hpp">
+      <Filter>Salsa Project</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\Defs.hpp">
+      <Filter>Salsa Project</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\SalsaCMS.hpp">
+      <Filter>Salsa Project</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\SalsaCMSBaseline.hpp">
+      <Filter>Salsa Project</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\TangoCMS.hpp">
+      <Filter>Salsa Project</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\TangoCMSBaseline.hpp">
+      <Filter>Salsa Project</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\topK.hpp">
+      <Filter>Salsa Project</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\UnivMon.hpp">
+      <Filter>Salsa Project</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\UnivMonTests.hpp">
+      <Filter>Salsa Project</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\PyramidSketch\params.h">
+      <Filter>Salsa Project\PyramidSketch</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\PyramidSketch\PASketch.h">
+      <Filter>Salsa Project\PyramidSketch</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\PyramidSketch\PCMSketch.h">
+      <Filter>Salsa Project\PyramidSketch</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\PyramidSketch\PCSketch.h">
+      <Filter>Salsa Project\PyramidSketch</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\PyramidSketch\PCUSketch.h">
+      <Filter>Salsa Project\PyramidSketch</Filter>
+    </ClInclude>
+    <ClInclude Include="SalsaProject\RngFast.hpp">
+      <Filter>Salsa Project</Filter>
+    </ClInclude>
+    <ClInclude Include="tests.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CounterPoolsSim.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RobinMap\robin_growth_policy.h">
+      <Filter>Robin Map</Filter>
+    </ClInclude>
+    <ClInclude Include="RobinMap\robin_hash.h">
+      <Filter>Robin Map</Filter>
+    </ClInclude>
+    <ClInclude Include="RobinMap\robin_map.h">
+      <Filter>Robin Map</Filter>
+    </ClInclude>
+    <ClInclude Include="RobinMap\robin_set.h">
+      <Filter>Robin Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CounterPools.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CounterPoolsTopK.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CounterPoolsDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GradCountSketch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SalsaProject\BobHash.cpp">
+      <Filter>Salsa Project</Filter>
+    </ClCompile>
+    <ClCompile Include="SalsaProject\CMS.cpp">
+      <Filter>Salsa Project</Filter>
+    </ClCompile>
+    <ClCompile Include="SalsaProject\CMSTests.cpp">
+      <Filter>Salsa Project</Filter>
+    </ClCompile>
+    <ClCompile Include="SalsaProject\CountMinAEE.cpp">
+      <Filter>Salsa Project</Filter>
+    </ClCompile>
+    <ClCompile Include="SalsaProject\CountSketch.cpp">
+      <Filter>Salsa Project</Filter>
+    </ClCompile>
+    <ClCompile Include="SalsaProject\CountSketchTests.cpp">
+      <Filter>Salsa Project</Filter>
+    </ClCompile>
+    <ClCompile Include="SalsaProject\PyramidTests.cpp">
+      <Filter>Salsa Project</Filter>
+    </ClCompile>
+    <ClCompile Include="SalsaProject\SalsaCMS.cpp">
+      <Filter>Salsa Project</Filter>
+    </ClCompile>
+    <ClCompile Include="SalsaProject\SalsaCMSBaseline.cpp">
+      <Filter>Salsa Project</Filter>
+    </ClCompile>
+    <ClCompile Include="SalsaProject\TangoCMS.cpp">
+      <Filter>Salsa Project</Filter>
+    </ClCompile>
+    <ClCompile Include="SalsaProject\TangoCMSBaseline.cpp">
+      <Filter>Salsa Project</Filter>
+    </ClCompile>
+    <ClCompile Include="SalsaProject\UnivMon.cpp">
+      <Filter>Salsa Project</Filter>
+    </ClCompile>
+    <ClCompile Include="SalsaProject\UnivMonTests.cpp">
+      <Filter>Salsa Project</Filter>
+    </ClCompile>
+    <ClCompile Include="CounterPools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CounterPoolsSim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CounterPoolsTopK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

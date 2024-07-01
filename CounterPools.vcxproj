@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{B5A1C19A-D1CC-4178-BF7B-815F32F3DCD5}</ProjectGuid>
+    <RootNamespace>CounterPools</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CounterPoolsSim.hpp" />
+    <ClInclude Include="CounterPools.hpp" />
+    <ClInclude Include="CounterPoolsDefs.h" />
+    <ClInclude Include="CounterPoolsTopK.hpp" />
+    <ClInclude Include="GradCountSketch.h" />
+    <ClInclude Include="RobinMap\robin_growth_policy.h" />
+    <ClInclude Include="RobinMap\robin_hash.h" />
+    <ClInclude Include="RobinMap\robin_map.h" />
+    <ClInclude Include="RobinMap\robin_set.h" />
+    <ClInclude Include="SalsaProject\AEE_Defs.hpp" />
+    <ClInclude Include="SalsaProject\BobHash.hpp" />
+    <ClInclude Include="SalsaProject\CMS.hpp" />
+    <ClInclude Include="SalsaProject\CMSTests.hpp" />
+    <ClInclude Include="SalsaProject\CountMinAEE.hpp" />
+    <ClInclude Include="SalsaProject\CountSketch.hpp" />
+    <ClInclude Include="SalsaProject\CountSketchTests.hpp" />
+    <ClInclude Include="SalsaProject\Defs.hpp" />
+    <ClInclude Include="SalsaProject\PyramidSketch\params.h" />
+    <ClInclude Include="SalsaProject\PyramidSketch\PASketch.h" />
+    <ClInclude Include="SalsaProject\PyramidSketch\PCMSketch.h" />
+    <ClInclude Include="SalsaProject\PyramidSketch\PCSketch.h" />
+    <ClInclude Include="SalsaProject\PyramidSketch\PCUSketch.h" />
+    <ClInclude Include="SalsaProject\RngFast.hpp" />
+    <ClInclude Include="SalsaProject\SalsaCMS.hpp" />
+    <ClInclude Include="SalsaProject\SalsaCMSBaseline.hpp" />
+    <ClInclude Include="SalsaProject\TangoCMS.hpp" />
+    <ClInclude Include="SalsaProject\TangoCMSBaseline.hpp" />
+    <ClInclude Include="SalsaProject\topK.hpp" />
+    <ClInclude Include="SalsaProject\UnivMon.hpp" />
+    <ClInclude Include="SalsaProject\UnivMonTests.hpp" />
+    <ClInclude Include="tests.hpp" />
+    <ClInclude Include="xxhash.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CounterPools.cpp" />
+    <ClCompile Include="CounterPoolsSim.cpp" />
+    <ClCompile Include="CounterPoolsTopK.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SalsaProject\BobHash.cpp" />
+    <ClCompile Include="SalsaProject\CMS.cpp" />
+    <ClCompile Include="SalsaProject\CMSTests.cpp" />
+    <ClCompile Include="SalsaProject\CountMinAEE.cpp" />
+    <ClCompile Include="SalsaProject\CountSketch.cpp" />
+    <ClCompile Include="SalsaProject\CountSketchTests.cpp" />
+    <ClCompile Include="SalsaProject\PyramidTests.cpp" />
+    <ClCompile Include="SalsaProject\SalsaCMS.cpp" />
+    <ClCompile Include="SalsaProject\SalsaCMSBaseline.cpp" />
+    <ClCompile Include="SalsaProject\TangoCMS.cpp" />
+    <ClCompile Include="SalsaProject\TangoCMSBaseline.cpp" />
+    <ClCompile Include="SalsaProject\UnivMon.cpp" />
+    <ClCompile Include="SalsaProject\UnivMonTests.cpp" />
+    <ClCompile Include="tests.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
